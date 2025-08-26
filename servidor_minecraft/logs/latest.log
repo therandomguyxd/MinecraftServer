@@ -1,10 +1,10 @@
-[19:15:21] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[19:15:24] [main/WARN]: Warnings were found!
+[20:43:49] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[20:43:49] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21.5+1.0 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.5.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[19:15:24] [main/INFO]: Loading 146 mods:
+[20:43:49] [main/INFO]: Loading 146 mods:
 	- almanac 1.4.5
 	- architectury 16.1.4
 	- async 0.1.7+alpha.5-1.21.5
@@ -168,369 +168,157 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[19:15:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MinecraftServer/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:15:25] [main/INFO]: Compatibility level set to JAVA_21
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[19:15:26] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:15:26] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
-[19:15:26] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[19:15:26] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[19:15:26] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:26] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:26] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[19:15:26] [main/INFO]: Loaded configuration file for Lithium: 157 options available, 2 override(s) found.
-[19:15:26] [main/INFO]: Loaded configuration file for ModernFix 5.20.4-beta.3+mc25w07a.e6c9: 54 options available, 5 override(s) found
-[19:15:26] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[19:15:26] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[19:15:26] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[19:15:26] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[19:15:26] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[19:15:26] [main/INFO]: Applying Nashorn fix
-[19:15:26] [main/INFO]: Sepals plugin for version '1.0.23' is loading
-[19:15:27] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[19:15:27] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:27] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:27] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[19:15:27] [main/WARN]: @Mixin target net.minecraft.class_761 was not found fluorine.mixins.json:WorldRendererMixin from mod fluorine
-[19:15:27] [main/WARN]: Error loading class: net/minecraft/class_898 (java.lang.ClassNotFoundException: net/minecraft/class_898)
-[19:15:27] [main/WARN]: @Mixin target net.minecraft.class_898 was not found fluorine.mixins.json:EntityRenderDispatcherMixin from mod fluorine
-[19:15:28] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.ServerLoginPacketListenerImplMixin enabled krypton.loginVT
-[19:15:28] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.ServerTextFilterMixin enabled krypton.textFilterVT
-[19:15:28] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.UtilMixin enabled krypton.utilVT
-[19:15:28] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.VarLongMixin enabled krypton.bestVarLong
-[19:15:28] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.fix.Varint21FrameDecoderMixin enabled krypton.fix128
-[19:15:28] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.DrownedEntityLeaveWaterGoalMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.DrownedMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.LivingEntityMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.MobMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.PathNavigationMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.ServerLevel$EntityCallbacksMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.ServerLevelMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'experimental.client_tick.entity.unused_brain.BrainMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.block_support.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.suffocation.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'experimental.entity.item_entity_merging.ItemEntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'experimental.entity.projectile_projectile_collisions.ProjectileUtilMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.fluid_pushing.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
-[19:15:28] [main/INFO]: Handling: entities in group world_entities_cache / com.github.cao.awa.sepals.mixin.world.WorldMixin
-[19:15:28] [main/INFO]: Handling: poi in group region_based_storage / com.github.cao.awa.sepals.mixin.world.poi.SerializingRegionBasedStorageMixin
-[19:15:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:15:29] [main/INFO]: ThreadTweak config initialized
-[19:15:34] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_2248:com.github.cao.awa.sepals.mixin.block.BlockMixin
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1297:com.github.cao.awa.sepals.mixin.entity.EntityMixin
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1309:com.github.cao.awa.sepals.mixin.entity.ServerLivingEntityMixin
-[19:15:35] [main/WARN]: Cancelled mixin com.ishland.c2me.fixes.worldgen.threading_issues.mixin.threading_detections.random_instances.MixinWorld. Check debug logs for more information.
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1937:com.github.cao.awa.sepals.mixin.world.WorldAccessor
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1937:com.github.cao.awa.sepals.mixin.world.WorldMixin
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1924:com.github.cao.awa.sepals.mixin.entity.EntityViewMixin
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_3218:com.github.cao.awa.sepals.mixin.world.ServerWorldMixin
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1542:com.github.cao.awa.sepals.mixin.entity.item.ItemEntityAccessor
-[19:15:35] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1542:com.github.cao.awa.sepals.mixin.entity.item.ItemEntityMixin
-[19:15:37] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1799:com.github.cao.awa.sepals.mixin.item.stack.ItemStackMixin
-[19:15:37] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[19:15:40] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4146:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.nearest.NearestLivingEntitiesSensorMixin
-[19:15:40] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4147:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.nearest.NearestPlayersSensorMixin
-[19:15:40] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4257:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.villager.VillagerBabiesSensorMixin
-[19:15:40] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_7100:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.frog.FrogAttackablesSensorMixin
-[19:15:41] [main/INFO]: Doing sepals configs change actions for net.minecraft.server.MinecraftServer:com.github.cao.awa.sepals.mixin.server.MinecraftServerMixin
-[19:15:41] [main/INFO]: Doing sepals configs change actions for net.minecraft.server.MinecraftServer:com.github.cao.awa.sepals.mixin.world.MinecraftServerAccessor
-[19:15:41] [main/INFO]: Vanilla bootstrap took 7208 milliseconds
-[19:15:41] [main/INFO]: Initializing Async...
-[19:15:41] [main/INFO]: Initializing Async Config...
-[19:15:41] [main/INFO]: Configuration saved successfully.
-[19:15:41] [main/INFO]: Configuration successfully loaded.
-[19:15:41] [main/INFO]: Async Initialized successfully!
-[19:15:41] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[19:15:41] [main/INFO]: Successfully Debugify'd your game!
-[19:15:41] [main/INFO]: Removing portal checks...
-[19:15:41] [main/INFO]: Disconnect Packet Fix has started.
-[19:15:41] [main/INFO]: [Fluorine] Performance module initializing...
-[19:15:41] [main/INFO]: [FluorineConfig] Loading configuration...
-[19:15:41] [main/INFO]: [FluorineConfig] enablePerformanceBoost: true
-[19:15:41] [main/INFO]: [FluorineConfig] maxThreads: 4
-[19:15:41] [main/INFO]: [FluorineConfig] tickRateMultiplier: 1.0
-[19:15:41] [main/INFO]: [FluorineConfig] Configuration loaded.
-[19:15:42] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
-[19:15:42] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[19:15:42] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
-[19:15:42] [main/INFO]: Constructing common components for leavesbegone:main
-[19:15:42] [main/INFO]: Thank you for using Nemo's Better Mending!
-[19:15:42] [main/INFO]: Loading Noisium.
-[19:15:42] [main/INFO]: Constructing common components for puzzleslib:main
-[19:15:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[19:15:43] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[19:15:43] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[19:15:43] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[19:15:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[19:15:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[19:15:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[19:15:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[19:15:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[19:15:43] [main/INFO]: Async is loaded, sepals will switch something features to synchronized impl
-[19:15:43] [main/INFO]: Lithium is loaded, auto-disabling sepals mixin: region_based_storage(com.github.cao.awa.sepals.mixin.world.poi.SerializingRegionBasedStorageMixin)
-[19:15:43] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4153:com.github.cao.awa.sepals.mixin.world.poi.PointOfInterestStorageAccessor
-[19:15:43] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4153:com.github.cao.awa.sepals.mixin.world.storage.PointOfInterestStorageMixin
-[19:15:43] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4180:com.github.cao.awa.sepals.mixin.world.poi.SerializingRegionBasedStorageMixin
-[19:15:43] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4180:com.github.cao.awa.sepals.mixin.world.storage.SerializingRegionBasedStorageAccessor
-[19:15:43] [main/INFO]: Sepals '1.0.23' loading on platform 'fabric'
-[19:15:43] [main/INFO]: Sepals 'forceEnableSepalsPoi' flag is false
-[19:15:43] [main/INFO]: Sepals 'enableSepalsVillager' flag is true
-[19:15:43] [main/INFO]: Sepals 'enableSepalsFrogLookAt' flag is true
-[19:15:43] [main/INFO]: Sepals 'enableSepalsFrogAttackableSensor' flag is true
-[19:15:43] [main/INFO]: Sepals 'enableSepalsLivingTargetCache' flag is true
-[19:15:43] [main/INFO]: Sepals 'nearestLivingEntitiesSensorUseQuickSort' flag is true
-[19:15:43] [main/INFO]: Sepals 'enableSepalsBiasedJumpLongTask' flag is true
-[19:15:43] [main/INFO]: Sepals 'enableSepalsEntitiesCramming' flag is true
-[19:15:43] [main/INFO]: Sepals 'enableSepalsItemMerge' flag is true
-[19:15:43] [main/INFO]: Sepals 'enableSepalsQuickCanBePushByEntityPredicate' flag is true
-[19:15:43] [main/INFO]: [ServerCore] Loaded V1.5.12+1.21.5!
-[19:15:43] [main/INFO]: Starting TT20...
-[19:15:43] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[19:15:43] [main/INFO]: [voicechat] Compatibility version 18
-[19:15:43] [main/INFO]: [voicechat] Loading plugins
-[19:15:43] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[19:15:43] [main/INFO]: [voicechat] Initializing plugins
-[19:15:43] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[19:15:43] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[19:15:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:15:44] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
-[19:15:49] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called player_heads:entities/player
-[19:15:49] [Worker-Main-1/ERROR]: Couldn't parse data file 'h-nigh:blood/weird_nights' from 'h-nigh:advancement/blood/weird_nights.json': DataResult.Error['Not a JSON object: 6548004 missed input: {"minecraft:custom_model_data":6548004}': class_161[parent=Optional[h-nigh:blood/many_nights], display=Optional[net.minecraft.class_185@b72e3ef], rewards=class_170[experience=20000, loot=[], recipes=[], function=Optional.empty], criteria={h-nigh:weird_nights=class_175[trigger=net.minecraft.class_2062@4d17542, triggerInstance=class_2063[]]}, requirements=[[h-nigh:weird_nights]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='rrc.h-nigh.advancement.weird_nights.title', fallback='Okay it's Normal Now...', args=[]}[style={color=dark_green,bold,italic,!underlined,!strikethrough,!obfuscated,hoverEvent=class_10613[value=translation{key='rrc.h-nigh.advancement.weird_nights.title', fallback='Okay it's Normal Now...', args=[]}[style={color=dark_green,bold,italic,!underlined,!strikethrough,!obfuscated}, siblings=[literal{
-}, translation{key='rrc.h-nigh.advancement.weird_nights.description', fallback='Survive 66 Bunk Blood Moons!!!', args=[]}[style={!bold,italic,!underlined,!strikethrough,!obfuscated}]]]]}]]}[style={color=dark_purple}]]]]
-[19:15:55] [main/INFO]: Loaded 1678 recipes
-[19:15:55] [main/ERROR]: Couldn't load advancements: [minecraft:husbandry/may_i_take_your_order, moldomre:story/storms, moldomre:story/using_storms, moldomre:story/sun, moldomre:story/using_sun]
-[19:15:55] [main/INFO]: Loaded 3170 advancements
-[19:15:55] [main/INFO]: Applied 0 biome modifications to 0 of 73 new biomes in 1.420 ms
-[19:15:55] [main/WARN]: @Final field field_52367:Ljava/util/concurrent/ThreadFactory; in fnp_patcher.mixins.json:network.experimental.ServerTextFilterMixin from mod fnp_patcher should be final
-[19:15:55] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
-[19:15:55] [Server thread/INFO]: Async Setting up thread-pool...
-[19:15:55] [Server thread/INFO]: Initialized Pool with 4 threads
-[19:15:55] [Server thread/INFO]: Registering commands
-[19:15:55] [Server thread/INFO]: Starting background profiler...
-[19:15:56] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[19:15:56] [Server thread/INFO]: Loading properties
-[19:15:56] [Server thread/INFO]: Default game type: SURVIVAL
-[19:15:56] [Server thread/INFO]: Generating keypair
-[19:15:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:15:56] [Server thread/INFO]: Using epoll channel type
-[19:15:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:15:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:15:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:15:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:15:56] [Server thread/INFO]: Preparing level "world"
-[19:15:56] [Server thread/WARN]: Cancelled mixin com.ishland.c2me.fixes.general.threading_issues.mixin.asynccatchers.MixinThreadedAnvilChunkStorage. Check debug logs for more information.
-[19:15:57] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 293.0 ms
-[19:15:57] [Server thread/INFO]: Doing sepals configs change actions for net.minecraft.class_4157:com.github.cao.awa.sepals.mixin.world.poi.PointOfInterestSetAccessor
-[19:15:57] [Server thread/INFO]: Doing sepals configs change actions for net.minecraft.class_4157:com.github.cao.awa.sepals.mixin.world.storage.PointOfInterestSetMixin
-[19:15:57] [Server thread/INFO]: Doing sepals configs change actions for net.minecraft.class_4156:com.github.cao.awa.sepals.mixin.world.poi.PointOfInterestAccessor
-[19:15:57] [Server thread/INFO]: Changing watch distance to 10
-[19:15:57] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[19:15:57] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.247 ms
-[19:15:57] [Server thread/INFO]: Changing watch distance to 10
-[19:15:57] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 146.4 ms
-[19:15:57] [Server thread/INFO]: Changing watch distance to 10
-[19:15:57] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@3ec08e73)
-[19:15:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:15:57] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[19:15:58] [Server thread/INFO]: Time elapsed: 96 ms
-[19:15:58] [Server thread/INFO]: Done (1.476s)! For help, type "help"
-[19:15:58] [Server thread/WARN]: Dedicated server took 44.961 seconds to load
-[19:15:58] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[19:15:58] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[19:15:58] [Server thread/INFO]: [REI] Plugins (3):
-[19:15:58] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[19:15:58] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[19:15:58] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[19:15:58] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[19:15:59] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 3.234 ms, totaling 491.1 ms.
-[19:15:59] [Server thread/INFO]: [REI] ========================================
-[19:15:59] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[19:15:59] [Server thread/INFO]: [REI] Plugins (3):
-[19:15:59] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[19:15:59] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[19:15:59] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[19:15:59] [Server thread/INFO]: [REI] ========================================
-[19:15:59] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 2.514 ms, totaling 212.8 ms.
-[19:15:59] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[19:15:59] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24645
-[19:16:13] [Server thread/INFO]: Doing sepals configs change actions for net.minecraft.class_4095:com.github.cao.awa.sepals.mixin.entity.ai.brain.BrainMixin
-[19:16:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
-[19:19:17] [Server thread/INFO]: RolandKisserBoi[/127.133.130.223:49083] logged in with entity id 8 at (-442.24829212944815, 125.0, 535.4661972045678)
-[19:19:17] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[19:19:17] [Server thread/INFO]: RolandKisserBoi joined the game
-[19:19:17] [Netty Epoll Server Play IO #0/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
-[19:19:17] [Netty Epoll Server Play IO #0/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
-[19:19:18] [Server thread/INFO]: Doing sepals configs change actions for net.minecraft.class_4129:com.github.cao.awa.sepals.mixin.entity.ai.brain.villager.VillagerTaskListProviderMixin
-[19:19:18] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/15, l='ServerLevel[world]', x=-446.46, y=125.04, z=521.45]
-[19:19:18] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/37, l='ServerLevel[world]', x=-358.41, y=74.03, z=493.50]
-[19:19:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2430ms or 48 ticks behind
-[19:19:19] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/78, l='ServerLevel[world]', x=-446.82, y=125.01, z=531.52]
-[19:19:19] [Async-Tick-Pool-Thread-2/WARN]: The server has loaded mod 'lithium', sepals cannot use sepals 'getInChunk' function (but 'isForceEnableSepalsPoi' config will ignore this warning)
-[19:19:22] [Server thread/WARN]: UUID of added entity already exists: class_1613['Skeleton'/195, l='ServerLevel[world]', x=-555.01, y=-31.00, z=657.92]
-[19:19:25] [Server thread/WARN]: UUID of added entity already exists: class_1472['Sheep'/327, l='ServerLevel[world]', x=-369.49, y=77.00, z=350.90]
-[19:19:25] [Server thread/WARN]: UUID of added entity already exists: class_1498['Horse'/337, l='ServerLevel[world]', x=-361.04, y=77.00, z=351.13]
-[19:19:32] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
-[19:19:32] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
-[19:19:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4651ms or 93 ticks behind
-[19:23:08] [Server thread/WARN]: RolandKisserBoi moved too quickly! 14.371931058286293,-0.8798072663587675,-10.333718338628273
-[19:24:00] [Server thread/WARN]: RolandKisserBoi moved too quickly! -4.003663713515834,-5.176724429647038,8.520513845210075
-[19:29:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[19:30:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2262ms or 45 ticks behind
-[19:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-420, y=122, z=552} class_2338{x=-419, y=122, z=553}
-[19:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-421, y=123, z=554} class_2338{x=-422, y=122, z=554}
-[19:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-421, y=123, z=554} class_2338{x=-422, y=122, z=554}
-[19:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-421, y=123, z=554} class_2338{x=-422, y=122, z=554}
-[19:56:26] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
-[19:56:26] [Server thread/INFO]: RolandKisserBoi left the game
-[19:56:26] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
-[20:06:53] [Server thread/INFO]: /advancement (grant|revoke)
-[20:06:53] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[20:06:53] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[20:06:53] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[20:06:53] [Server thread/INFO]: /clear [<targets>]
-[20:06:53] [Server thread/INFO]: /clone (<begin>|from)
-[20:06:53] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[20:06:53] [Server thread/INFO]: /data (merge|get|remove|modify)
-[20:06:53] [Server thread/INFO]: /datapack (enable|disable|list)
-[20:06:53] [Server thread/INFO]: /debug (start|stop|function)
-[20:06:53] [Server thread/INFO]: /defaultgamemode <gamemode>
-[20:06:53] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[20:06:53] [Server thread/INFO]: /effect (clear|give)
-[20:06:53] [Server thread/INFO]: /me <action>
-[20:06:53] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[20:06:53] [Server thread/INFO]: /experience (add|set|query)
-[20:06:53] [Server thread/INFO]: /xp -> experience
-[20:06:53] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
-[20:06:53] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[20:06:53] [Server thread/INFO]: /forceload (add|remove|query)
-[20:06:53] [Server thread/INFO]: /function <name> [<arguments>|with]
-[20:06:53] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[20:06:53] [Server thread/INFO]: /gamerule (allowFireTicksAwayFromPlayer|announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplodes|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[20:06:53] [Server thread/INFO]: /give <targets> <item> [<count>]
-[20:06:53] [Server thread/INFO]: /help [<command>]
-[20:06:53] [Server thread/INFO]: /item (replace|modify)
-[20:06:53] [Server thread/INFO]: /kick <targets> [<reason>]
-[20:06:53] [Server thread/INFO]: /kill [<targets>]
-[20:06:53] [Server thread/INFO]: /list [uuids]
-[20:06:53] [Server thread/INFO]: /locate (structure|biome|poi)
-[20:06:53] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[20:06:53] [Server thread/INFO]: /msg <targets> <message>
-[20:06:53] [Server thread/INFO]: /tell -> msg
-[20:06:53] [Server thread/INFO]: /w -> msg
-[20:06:53] [Server thread/INFO]: /particle <name> [<pos>]
-[20:06:53] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[20:06:53] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[20:06:53] [Server thread/INFO]: /random (value|roll|reset)
-[20:06:53] [Server thread/INFO]: /reload
-[20:06:53] [Server thread/INFO]: /recipe (give|take)
-[20:06:53] [Server thread/INFO]: /return (<value>|fail|run)
-[20:06:53] [Server thread/INFO]: /ride <target> (mount|dismount)
-[20:06:53] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
-[20:06:53] [Server thread/INFO]: /say <message>
-[20:06:53] [Server thread/INFO]: /schedule (function|clear)
-[20:06:53] [Server thread/INFO]: /scoreboard (objectives|players)
-[20:06:53] [Server thread/INFO]: /seed
-[20:06:53] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
-[20:06:53] [Server thread/INFO]: /spawnpoint [<targets>]
-[20:06:53] [Server thread/INFO]: /setworldspawn [<pos>]
-[20:06:53] [Server thread/INFO]: /spectate [<target>]
-[20:06:53] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[20:06:53] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[20:06:53] [Server thread/INFO]: /summon <entity> [<pos>]
-[20:06:53] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[20:06:53] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[20:06:53] [Server thread/INFO]: /teammsg <message>
-[20:06:53] [Server thread/INFO]: /tm -> teammsg
-[20:06:53] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[20:06:53] [Server thread/INFO]: /tp -> teleport
-[20:06:53] [Server thread/INFO]: /tellraw <targets> <message>
-[20:06:53] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
-[20:06:53] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[20:06:53] [Server thread/INFO]: /time (set|add|query)
-[20:06:53] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[20:06:53] [Server thread/INFO]: /trigger <objective> [add|set]
-[20:06:53] [Server thread/INFO]: /weather (clear|rain|thunder)
-[20:06:53] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[20:06:53] [Server thread/INFO]: /jfr (start|stop)
-[20:06:53] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[20:06:53] [Server thread/INFO]: /banlist [ips|players]
-[20:06:53] [Server thread/INFO]: /ban <targets> [<reason>]
-[20:06:53] [Server thread/INFO]: /deop <targets>
-[20:06:53] [Server thread/INFO]: /op <targets>
-[20:06:53] [Server thread/INFO]: /pardon <targets>
-[20:06:53] [Server thread/INFO]: /pardon-ip <target>
-[20:06:53] [Server thread/INFO]: /perf (start|stop)
-[20:06:53] [Server thread/INFO]: /save-all [flush]
-[20:06:53] [Server thread/INFO]: /save-off
-[20:06:53] [Server thread/INFO]: /save-on
-[20:06:53] [Server thread/INFO]: /setidletimeout <minutes>
-[20:06:53] [Server thread/INFO]: /stop
-[20:06:53] [Server thread/INFO]: /transfer <hostname> [<port>]
-[20:06:53] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[20:06:53] [Server thread/INFO]: /c2me notick
-[20:06:53] [Server thread/INFO]: /async (config|stats)
-[20:06:53] [Server thread/INFO]: /chunky [cancel|center|confirm|continue|corners|help|pattern|pause|progress|quiet|radius|reload|selection|shape|silent|spawn|start|trim|worldborder|world]
-[20:06:53] [Server thread/INFO]: /fsit (reload|useServer|centerSeats|onUseSit|onUseRide|onUseRange|onUseCheckSuffocation|onSneakSit|onSneakCrawl|onSneakMinPitch|onSneakDelay)
-[20:06:53] [Server thread/INFO]: /restore_armour
-[20:06:53] [Server thread/INFO]: /hide_armour
-[20:06:53] [Server thread/INFO]: /servercore (reload|settings|status)
-[20:06:53] [Server thread/INFO]: /sc -> servercore
-[20:06:53] [Server thread/INFO]: /statistics [entities|block-entities]
-[20:06:53] [Server thread/INFO]: /mobcaps
-[20:06:53] [Server thread/INFO]: /slumber [<enabled>]
-[20:06:53] [Server thread/INFO]: /tt20 [tps|status|toggle|reload]
-[20:06:53] [Server thread/INFO]: /voicechat [help|test|invite|join|leave]
-[20:06:53] [Server thread/INFO]: /memcheck
-[20:06:53] [Server thread/INFO]: /almanac reload [<config>]
-[20:06:53] [Server thread/INFO]: /letmedespawn (add|remove|addPersistenceEnabler|removePersistenceEnabler)
-[20:06:53] [Server thread/INFO]: /debugs (tasks|memories|locate)
-[20:06:53] [Server thread/INFO]: /sepals [forceEnableSepalsPoi|enableSepalsVillager|enableSepalsFrogLookAt|enableSepalsFrogAttackableSensor|enableSepalsLivingTargetCache|nearestLivingEntitiesSensorUseQuickSort|enableSepalsBiasedLongJumpTask|enableSepalsEntitiesCramming|enableSepalsItemMerge|enableSepalsQuickCanBePushByEntityPredicate]
-[20:06:53] [Server thread/INFO]: /sepalstest [explosion]
-[20:06:53] [Server thread/INFO]: /spark [<args>]
-[20:08:59] [Server thread/INFO]: RolandKisserBoi[/127.133.130.223:42209] logged in with entity id 24892 at (-435.196041227216, 125.0, 535.1517666875584)
-[20:08:59] [Server thread/INFO]: RolandKisserBoi joined the game
-[20:08:59] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24896, l='ServerLevel[world]', x=-358.41, y=73.99, z=493.50]
-[20:08:59] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[20:08:59] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24897, l='ServerLevel[world]', x=-446.82, y=125.01, z=531.52]
-[20:08:59] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[20:08:59] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/24898, l='ServerLevel[world]', x=-446.46, y=125.04, z=521.45]
-[20:08:59] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[20:08:59] [Netty Epoll Server Play IO #1/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
-[20:08:59] [Netty Epoll Server Play IO #1/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
-[20:09:01] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
-[20:09:01] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
-[20:12:45] [Server thread/INFO]: RolandKisserBoi lost connection: Timed out
-[20:12:45] [Server thread/INFO]: RolandKisserBoi left the game
-[20:12:45] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
-[20:14:33] [Server thread/INFO]: RolandKisserBoi[/127.133.130.223:36425] logged in with entity id 25775 at (-418.4796592928588, 129.0, 540.3638999645917)
-[20:14:33] [Server thread/INFO]: RolandKisserBoi joined the game
-[20:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/25779, l='ServerLevel[world]', x=-358.41, y=74.00, z=493.50]
-[20:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[20:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/25780, l='ServerLevel[world]', x=-446.46, y=125.04, z=521.45]
-[20:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[20:14:33] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/25781, l='ServerLevel[world]', x=-446.82, y=125.10, z=531.52]
-[20:14:33] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[20:14:33] [Netty Epoll Server Play IO #2/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
-[20:14:33] [Netty Epoll Server Play IO #2/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
-[20:14:35] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
-[20:14:35] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
-[20:17:19] [Server thread/INFO]: RolandKisserBoi lost connection: Timed out
-[20:17:19] [Server thread/INFO]: RolandKisserBoi left the game
-[20:17:19] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[20:43:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MinecraftServer/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:43:50] [main/INFO]: Compatibility level set to JAVA_21
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:43:50] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:43:50] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[20:43:50] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:43:50] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:43:50] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:43:50] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:43:50] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[20:43:50] [main/INFO]: Loaded configuration file for Lithium: 157 options available, 2 override(s) found.
+[20:43:50] [main/INFO]: Loaded configuration file for ModernFix 5.20.4-beta.3+mc25w07a.e6c9: 54 options available, 5 override(s) found
+[20:43:50] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[20:43:50] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[20:43:50] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[20:43:50] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[20:43:50] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[20:43:50] [main/INFO]: Applying Nashorn fix
+[20:43:50] [main/INFO]: Sepals plugin for version '1.0.23' is loading
+[20:43:51] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[20:43:51] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:43:51] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:43:51] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[20:43:51] [main/WARN]: @Mixin target net.minecraft.class_761 was not found fluorine.mixins.json:WorldRendererMixin from mod fluorine
+[20:43:51] [main/WARN]: Error loading class: net/minecraft/class_898 (java.lang.ClassNotFoundException: net/minecraft/class_898)
+[20:43:51] [main/WARN]: @Mixin target net.minecraft.class_898 was not found fluorine.mixins.json:EntityRenderDispatcherMixin from mod fluorine
+[20:43:51] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.ServerLoginPacketListenerImplMixin enabled krypton.loginVT
+[20:43:51] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.ServerTextFilterMixin enabled krypton.textFilterVT
+[20:43:51] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.UtilMixin enabled krypton.utilVT
+[20:43:51] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.experimental.VarLongMixin enabled krypton.bestVarLong
+[20:43:51] [main/INFO]: Mixin one.pkg.fnp_patcher.mixin.network.fix.Varint21FrameDecoderMixin enabled krypton.fix128
+[20:43:52] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.DrownedEntityLeaveWaterGoalMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.DrownedMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.LivingEntityMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.MobMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.PathNavigationMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.ServerLevel$EntityCallbacksMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'entity.inactive_navigations.ServerLevelMixin' as rule 'mixin.entity.inactive_navigations' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'experimental.client_tick.entity.unused_brain.BrainMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.block_support.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.suffocation.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'experimental.entity.item_entity_merging.ItemEntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'experimental.entity.projectile_projectile_collisions.ProjectileUtilMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Force-disabling mixin 'experimental.entity.block_caching.fluid_pushing.EntityMixin' as rule 'mixin.experimental' (added by mods [async]) disables it and children
+[20:43:52] [main/INFO]: Handling: entities in group world_entities_cache / com.github.cao.awa.sepals.mixin.world.WorldMixin
+[20:43:52] [main/INFO]: Handling: poi in group region_based_storage / com.github.cao.awa.sepals.mixin.world.poi.SerializingRegionBasedStorageMixin
+[20:43:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:43:52] [main/INFO]: ThreadTweak config initialized
+[20:43:58] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_2248:com.github.cao.awa.sepals.mixin.block.BlockMixin
+[20:43:58] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1297:com.github.cao.awa.sepals.mixin.entity.EntityMixin
+[20:43:59] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1309:com.github.cao.awa.sepals.mixin.entity.ServerLivingEntityMixin
+[20:43:59] [main/WARN]: Cancelled mixin com.ishland.c2me.fixes.worldgen.threading_issues.mixin.threading_detections.random_instances.MixinWorld. Check debug logs for more information.
+[20:43:59] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1937:com.github.cao.awa.sepals.mixin.world.WorldAccessor
+[20:43:59] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1937:com.github.cao.awa.sepals.mixin.world.WorldMixin
+[20:43:59] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1924:com.github.cao.awa.sepals.mixin.entity.EntityViewMixin
+[20:43:59] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_3218:com.github.cao.awa.sepals.mixin.world.ServerWorldMixin
+[20:43:59] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1542:com.github.cao.awa.sepals.mixin.entity.item.ItemEntityAccessor
+[20:43:59] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1542:com.github.cao.awa.sepals.mixin.entity.item.ItemEntityMixin
+[20:44:01] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_1799:com.github.cao.awa.sepals.mixin.item.stack.ItemStackMixin
+[20:44:01] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:44:05] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4146:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.nearest.NearestLivingEntitiesSensorMixin
+[20:44:05] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4147:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.nearest.NearestPlayersSensorMixin
+[20:44:05] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4257:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.villager.VillagerBabiesSensorMixin
+[20:44:05] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_7100:com.github.cao.awa.sepals.mixin.entity.ai.brain.sensor.frog.FrogAttackablesSensorMixin
+[20:44:05] [main/INFO]: Doing sepals configs change actions for net.minecraft.server.MinecraftServer:com.github.cao.awa.sepals.mixin.server.MinecraftServerMixin
+[20:44:05] [main/INFO]: Doing sepals configs change actions for net.minecraft.server.MinecraftServer:com.github.cao.awa.sepals.mixin.world.MinecraftServerAccessor
+[20:44:05] [main/INFO]: Vanilla bootstrap took 7494 milliseconds
+[20:44:05] [main/INFO]: Initializing Async...
+[20:44:05] [main/INFO]: Initializing Async Config...
+[20:44:05] [main/INFO]: Configuration saved successfully.
+[20:44:05] [main/INFO]: Configuration successfully loaded.
+[20:44:05] [main/INFO]: Async Initialized successfully!
+[20:44:06] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[20:44:06] [main/INFO]: Successfully Debugify'd your game!
+[20:44:06] [main/INFO]: Removing portal checks...
+[20:44:06] [main/INFO]: Disconnect Packet Fix has started.
+[20:44:06] [main/INFO]: [Fluorine] Performance module initializing...
+[20:44:06] [main/INFO]: [FluorineConfig] Loading configuration...
+[20:44:06] [main/INFO]: [FluorineConfig] enablePerformanceBoost: true
+[20:44:06] [main/INFO]: [FluorineConfig] maxThreads: 4
+[20:44:06] [main/INFO]: [FluorineConfig] tickRateMultiplier: 1.0
+[20:44:06] [main/INFO]: [FluorineConfig] Configuration loaded.
+[20:44:06] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[20:44:06] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[20:44:06] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 1 ms)
+[20:44:06] [main/INFO]: Constructing common components for leavesbegone:main
+[20:44:07] [main/INFO]: Thank you for using Nemo's Better Mending!
+[20:44:07] [main/INFO]: Loading Noisium.
+[20:44:07] [main/INFO]: Constructing common components for puzzleslib:main
+[20:44:07] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[20:44:07] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[20:44:07] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[20:44:07] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[20:44:07] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[20:44:07] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[20:44:07] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[20:44:07] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[20:44:07] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[20:44:07] [main/INFO]: Async is loaded, sepals will switch something features to synchronized impl
+[20:44:07] [main/INFO]: Lithium is loaded, auto-disabling sepals mixin: region_based_storage(com.github.cao.awa.sepals.mixin.world.poi.SerializingRegionBasedStorageMixin)
+[20:44:07] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4153:com.github.cao.awa.sepals.mixin.world.poi.PointOfInterestStorageAccessor
+[20:44:07] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4153:com.github.cao.awa.sepals.mixin.world.storage.PointOfInterestStorageMixin
+[20:44:07] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4180:com.github.cao.awa.sepals.mixin.world.poi.SerializingRegionBasedStorageMixin
+[20:44:07] [main/INFO]: Doing sepals configs change actions for net.minecraft.class_4180:com.github.cao.awa.sepals.mixin.world.storage.SerializingRegionBasedStorageAccessor
+[20:44:07] [main/INFO]: Sepals '1.0.23' loading on platform 'fabric'
+[20:44:07] [main/INFO]: Sepals 'forceEnableSepalsPoi' flag is false
+[20:44:07] [main/INFO]: Sepals 'enableSepalsVillager' flag is true
+[20:44:07] [main/INFO]: Sepals 'enableSepalsFrogLookAt' flag is true
+[20:44:07] [main/INFO]: Sepals 'enableSepalsFrogAttackableSensor' flag is true
+[20:44:07] [main/INFO]: Sepals 'enableSepalsLivingTargetCache' flag is true
+[20:44:07] [main/INFO]: Sepals 'nearestLivingEntitiesSensorUseQuickSort' flag is true
+[20:44:07] [main/INFO]: Sepals 'enableSepalsBiasedJumpLongTask' flag is true
+[20:44:07] [main/INFO]: Sepals 'enableSepalsEntitiesCramming' flag is true
+[20:44:07] [main/INFO]: Sepals 'enableSepalsItemMerge' flag is true
+[20:44:07] [main/INFO]: Sepals 'enableSepalsQuickCanBePushByEntityPredicate' flag is true
+[20:44:07] [main/INFO]: [ServerCore] Loaded V1.5.12+1.21.5!
+[20:44:07] [main/INFO]: Starting TT20...
+[20:44:07] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[20:44:07] [main/INFO]: [voicechat] Compatibility version 18
+[20:44:07] [main/INFO]: [voicechat] Loading plugins
+[20:44:07] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[20:44:07] [main/INFO]: [voicechat] Initializing plugins
+[20:44:07] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[20:44:07] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:44:08] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:44:08] [main/ERROR]: Failed to start the minecraft server
+net.minecraft.class_5125$class_5126: /workspaces/MinecraftServer/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at knot/net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32$class_5143.<init>(class_32.java:374) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32.method_52236(class_32.java:353) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:139) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.3]
