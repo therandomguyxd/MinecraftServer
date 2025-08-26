@@ -466,6 +466,7 @@
       "loser": "2025-07-27 01:30:22 +0000",
       "glows_in_the_dark": "2025-08-14 22:45:38 +0000",
       "the_haggler": "2025-08-11 22:04:16 +0000",
+      "an_amazing_story": "2025-08-26 17:31:19 +0000",
       "war_is_coming": "2025-08-17 20:22:54 +0000",
       "pushed_around": "2025-08-24 01:21:53 +0000",
       "festival_of_lights": "2025-07-27 01:22:53 +0000",
@@ -1340,6 +1341,7 @@
       "gold_ingot": "2025-08-11 22:20:04 +0000",
       "nether_wart": "2025-08-14 22:50:17 +0000",
       "iron_nugget": "2025-08-14 22:28:06 +0000",
+      "written_book": "2025-08-26 17:31:18 +0000",
       "chainmail_boots": "2025-08-22 00:17:36 +0000",
       "ghast_tear": "2025-08-14 22:32:23 +0000",
       "enchanted_book": "2025-07-26 23:24:46 +0000",
@@ -1666,6 +1668,7 @@
       "the_garbage_will_do": "2025-08-12 23:25:49 +0000",
       "suspicious_looking_stew": "2025-08-16 17:24:24 +0000",
       "not_today": "2025-08-19 22:01:37 +0000",
+      "an_amazing_story": "2025-08-26 17:31:19 +0000",
       "bake_bread": "2025-07-27 01:50:15 +0000",
       "care_for_the_environment": "2025-08-04 17:53:10 +0000",
       "the_melon_the_melon_the_melon": "2025-08-04 17:44:05 +0000",
@@ -13505,75 +13508,81 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:28:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:38:14 +0000"
     },
     "done": false
+  },
+  "blazeandcave:farming/an_amazing_story": {
+    "criteria": {
+      "written_book": "2025-08-26 17:31:18 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4325
 }
