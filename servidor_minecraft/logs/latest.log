@@ -841,3 +841,9 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_270.method_12
 [18:42:07] [Server thread/INFO]: RolandKisserBoi lost connection: Timed out
 [18:42:07] [Server thread/INFO]: RolandKisserBoi left the game
 [18:42:07] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[18:51:20] [Server thread/INFO]: RolandKisserBoi[/127.133.130.223:45183] logged in with entity id 25576 at (-366.712013404885, 76.5, 473.11461598581843)
+[18:51:20] [Server thread/INFO]: RolandKisserBoi joined the game
+[18:51:20] [Netty Epoll Server Play IO #4/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[18:51:20] [Netty Epoll Server Play IO #4/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[18:51:23] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
+[18:51:23] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
