@@ -397,3 +397,6 @@
 [19:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-421, y=123, z=554} class_2338{x=-422, y=122, z=554}
 [19:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-421, y=123, z=554} class_2338{x=-422, y=122, z=554}
 [19:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-421, y=123, z=554} class_2338{x=-422, y=122, z=554}
+[19:56:26] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[19:56:26] [Server thread/INFO]: RolandKisserBoi left the game
+[19:56:26] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
