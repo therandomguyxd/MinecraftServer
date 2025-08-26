@@ -171,6 +171,7 @@
       "thats_the_point": "2025-07-27 01:38:04 +0000",
       "suit_up": "2025-07-27 00:37:36 +0000",
       "the_phantom_menace": "2025-08-17 01:37:11 +0000",
+      "mozart": "2025-08-26 19:31:52 +0000",
       "ultra_hardcore": "2025-08-11 21:00:19 +0000",
       "theres_a_zombie_on_the_lawn": "2025-07-26 21:20:32 +0000",
       "plane_walker": "2025-08-19 22:57:19 +0000",
@@ -255,6 +256,7 @@
       "aww_it_broke": "2025-08-04 17:21:32 +0000",
       "minecraft_trials_edition": "2025-08-04 18:42:20 +0000",
       "the_city_at_the_end_of_the_game": "2025-08-19 23:34:51 +0000",
+      "observer_buddy": "2025-08-26 19:44:20 +0000",
       "poisonous_ew": "2025-08-04 18:32:41 +0000",
       "stationary_storage": "2025-08-11 21:14:36 +0000",
       "getting_wood": "2025-07-27 00:19:35 +0000",
@@ -263,6 +265,7 @@
       "classy_glassy": "2025-07-27 00:48:52 +0000",
       "those_were_the_days": "2025-08-12 22:55:09 +0000",
       "frosty": "2025-08-24 22:54:22 +0000",
+      "dispense_with_this": "2025-08-26 19:34:52 +0000",
       "lucky_break": "2025-07-26 23:24:46 +0000",
       "construction_worker": "2025-08-14 21:24:52 +0000",
       "the_cutest_predator": "2025-08-22 20:49:10 +0000",
@@ -531,6 +534,7 @@
       "oak_slab": "2025-08-25 20:21:58 +0000",
       "nether_brick_fence": "2025-08-15 01:13:08 +0000",
       "white_bed": "2025-07-27 00:53:21 +0000",
+      "observer": "2025-08-26 19:44:19 +0000",
       "black_stained_glass_pane": "2025-07-27 00:48:52 +0000",
       "pink_petals": "2025-08-16 23:10:24 +0000",
       "cake": "2025-08-14 21:24:20 +0000",
@@ -577,6 +581,7 @@
       "stripped_oak_log": "2025-07-27 01:21:43 +0000",
       "furnace": "2025-07-27 00:22:36 +0000",
       "spruce_slab": "2025-08-25 00:19:37 +0000",
+      "oak_sign": "2025-08-26 19:35:41 +0000",
       "stripped_warped_hyphae": "2025-08-15 00:29:32 +0000",
       "hay_block": "2025-07-27 01:49:31 +0000",
       "stone_slab": "2025-08-12 23:31:44 +0000",
@@ -609,6 +614,7 @@
       "jungle_fence": "2025-08-17 01:16:22 +0000",
       "wither_skeleton_skull": "2025-08-26 00:11:54 +0000",
       "oxidized_copper": "2025-08-24 22:56:00 +0000",
+      "dispenser": "2025-08-26 19:34:51 +0000",
       "chorus_flower": "2025-08-23 20:51:54 +0000",
       "jungle_trapdoor": "2025-08-19 23:05:19 +0000",
       "soul_lantern": "2025-08-17 19:06:34 +0000",
@@ -712,6 +718,7 @@
       "crimson_stem": "2025-08-17 19:14:06 +0000",
       "brewing_stand": "2025-08-21 21:54:49 +0000",
       "stone_bricks": "2025-07-27 00:52:34 +0000",
+      "note_block": "2025-08-26 19:31:52 +0000",
       "cracked_stone_bricks": "2025-08-18 23:17:31 +0000",
       "purpur_stairs": "2025-08-19 23:27:23 +0000",
       "crimson_roots": "2025-08-14 22:30:01 +0000",
@@ -1568,9 +1575,12 @@
       "piston": "2025-08-11 21:33:50 +0000",
       "rail": "2025-08-21 22:08:16 +0000",
       "copper_bulb": "2025-08-24 23:09:32 +0000",
+      "note_block": "2025-08-26 19:31:52 +0000",
       "bell": "2025-08-17 20:30:44 +0000",
       "oak_button": "2025-08-22 23:05:40 +0000",
       "iron_door": "2025-08-25 20:20:32 +0000",
+      "dispenser": "2025-08-26 19:34:51 +0000",
+      "observer": "2025-08-26 19:44:19 +0000",
       "minecart": "2025-08-21 22:06:27 +0000",
       "lectern": "2025-08-11 21:33:59 +0000",
       "oak_trapdoor": "2025-08-22 21:06:52 +0000",
@@ -1735,6 +1745,7 @@
       "oak_stairs": "2025-08-25 20:17:19 +0000",
       "oak_log": "2025-07-27 00:19:34 +0000",
       "oak_planks": "2025-07-27 00:20:09 +0000",
+      "oak_sign": "2025-08-26 19:35:41 +0000",
       "oak_trapdoor": "2025-08-22 21:06:52 +0000",
       "oak_slab": "2025-08-25 20:21:58 +0000",
       "oak_boat": "2025-07-27 00:28:10 +0000",
@@ -2702,12 +2713,15 @@
   },
   "blazeandcave:bacap/redstone_milestone": {
     "criteria": {
+      "observer_buddy": "2025-08-26 19:44:20 +0000",
       "root": "2025-08-04 18:16:21 +0000",
       "space_hopper": "2025-08-21 22:06:23 +0000",
       "under_pressure": "2025-07-27 00:37:14 +0000",
       "click": "2025-07-27 01:17:56 +0000",
       "quirky_quartz": "2025-08-14 22:28:24 +0000",
-      "moving_parts": "2025-08-11 21:33:51 +0000"
+      "mozart": "2025-08-26 19:31:52 +0000",
+      "moving_parts": "2025-08-11 21:33:51 +0000",
+      "dispense_with_this": "2025-08-26 19:34:52 +0000"
     },
     "done": false
   },
@@ -13568,75 +13582,93 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 19:30:26 +0000"
+      "log_spam_fixer": "2025-08-26 19:45:28 +0000"
     },
     "done": false
+  },
+  "blazeandcave:redstone/dispense_with_this": {
+    "criteria": {
+      "dispenser": "2025-08-26 19:34:51 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/mozart": {
+    "criteria": {
+      "noteblock": "2025-08-26 19:31:52 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/observer_buddy": {
+    "criteria": {
+      "observer": "2025-08-26 19:44:19 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4325
 }
