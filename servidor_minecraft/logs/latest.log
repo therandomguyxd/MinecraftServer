@@ -444,3 +444,24 @@
 [21:58:37] [Server thread/INFO]: Villager class_1646['Villager'/16333, l='ServerLevel[world]', x=468.50, y=-39.00, z=4343.56] died, message: 'Villager was shot by Pillager'
 [21:59:20] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-250, y=27, z=-586}
 [22:03:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7362ms or 147 ticks behind
+[22:11:33] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[22:11:33] [Server thread/INFO]: RolandKisserBoi left the game
+[22:11:33] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[22:11:40] [Server thread/INFO]: RolandKisserBoi[/127.133.130.223:59245] logged in with entity id 31333 at (-142.7120428652964, 129.0, 197.8626008497901)
+[22:11:40] [Server thread/INFO]: RolandKisserBoi joined the game
+[22:11:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/31336, l='ServerLevel[world]', x=-446.82, y=125.09, z=531.52]
+[22:11:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[22:11:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/31338, l='ServerLevel[world]', x=-358.41, y=74.00, z=493.50]
+[22:11:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[22:11:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/31339, l='ServerLevel[world]', x=-446.46, y=125.04, z=521.45]
+[22:11:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[22:11:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/31340, l='ServerLevel[world]', x=-358.41, y=74.00, z=493.50]
+[22:11:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[22:11:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/31341, l='ServerLevel[world]', x=-446.82, y=125.10, z=531.52]
+[22:11:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[22:11:40] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/31342, l='ServerLevel[world]', x=-446.46, y=125.04, z=521.45]
+[22:11:40] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[22:11:40] [Netty Epoll Server Play IO #1/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[22:11:40] [Netty Epoll Server Play IO #1/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[22:11:40] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
+[22:11:40] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi

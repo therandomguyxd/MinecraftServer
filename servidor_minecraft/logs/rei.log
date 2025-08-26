@@ -668,3 +668,5 @@ java.lang.Throwable
 [21:46:19] [Server thread/DEBUG] [REI] Updating players with new displays version 19622A6D00000001 [from 19622A6D00000000]
 [21:46:38] [Server thread/DEBUG] [REI] Player RolandKisserBoi has outdated displays version 0 [latest version: 19622A6D00000001]
 [21:46:38] [Server thread/DEBUG] [REI] Player RolandKisserBoi has outdated displays version 0 [latest version: 19622A6D00000001], sending reset packet request.
+[22:11:40] [Server thread/DEBUG] [REI] Player RolandKisserBoi has outdated displays version 0 [latest version: 19622A6D00000001]
+[22:11:40] [Server thread/DEBUG] [REI] Player RolandKisserBoi has outdated displays version 0 [latest version: 19622A6D00000001], sending reset packet request.
