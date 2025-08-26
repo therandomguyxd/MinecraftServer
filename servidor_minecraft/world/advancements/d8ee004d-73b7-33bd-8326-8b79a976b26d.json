@@ -88,12 +88,15 @@
       "basalt_deltas": "2025-08-16 21:29:55 +0000",
       "dripstone_caves": "2025-07-26 23:24:46 +0000",
       "crimson_forest": "2025-08-12 23:11:38 +0000",
+      "swamp": "2025-08-26 21:57:54 +0000",
       "badlands": "2025-08-26 21:22:04 +0000",
       "deep_cold_ocean": "2025-08-22 20:50:01 +0000",
       "old_growth_birch_forest": "2025-08-17 00:08:14 +0000",
       "ocean": "2025-08-22 20:42:24 +0000",
+      "windswept_hills": "2025-08-26 21:57:25 +0000",
       "wooded_badlands": "2025-08-26 21:22:08 +0000",
       "beach": "2025-08-26 21:16:40 +0000",
+      "windswept_forest": "2025-08-26 22:01:45 +0000",
       "jungle": "2025-08-04 17:31:33 +0000",
       "river": "2025-07-27 00:32:47 +0000",
       "pale_garden": "2025-08-23 21:19:41 +0000"
@@ -130,6 +133,7 @@
       "sparse_jungle": "2025-08-26 21:12:28 +0000",
       "jungle": "2025-08-04 17:31:33 +0000",
       "pale_garden": "2025-08-23 21:19:41 +0000",
+      "swamp": "2025-08-26 21:57:54 +0000",
       "cherry_grove": "2025-07-26 21:18:40 +0000"
     },
     "done": false
@@ -140,10 +144,12 @@
       "birch_forest": "2025-08-17 00:08:08 +0000",
       "cold_ocean": "2025-08-22 20:50:01 +0000",
       "snowy_slopes_or_grove": "2025-08-23 23:38:44 +0000",
+      "swamp": "2025-08-26 21:57:54 +0000",
       "peaks": "2025-08-26 21:21:56 +0000",
       "cherry_grove": "2025-07-26 21:18:40 +0000",
       "badlands": "2025-08-26 21:22:04 +0000",
       "ocean": "2025-08-22 20:42:24 +0000",
+      "windswept_hills": "2025-08-26 21:57:25 +0000",
       "dark_forest": "2025-08-17 00:09:55 +0000",
       "plains": "2025-07-26 21:20:30 +0000",
       "savanna": "2025-07-27 01:29:23 +0000",
@@ -361,6 +367,7 @@
       "ew_ew_ew": "2025-07-27 00:20:48 +0000",
       "trimming_the_treetops": "2025-08-14 21:24:08 +0000",
       "mob_hunter": "2025-08-17 18:35:28 +0000",
+      "trick_or_treat": "2025-08-26 21:58:58 +0000",
       "kilometre_walk": "2025-08-16 22:34:30 +0000",
       "cut_in_half": "2025-08-12 23:25:44 +0000",
       "potion_root": "2025-08-19 23:38:05 +0000",
@@ -394,6 +401,7 @@
       "into_fire": "2025-08-14 22:50:29 +0000",
       "end_bricks": "2025-08-23 20:39:14 +0000",
       "who_is_cutting_onions": "2025-08-14 22:29:27 +0000",
+      "yum_yum_yummo": "2025-08-26 21:51:43 +0000",
       "sound_the_alarm": "2025-08-17 20:32:12 +0000",
       "holy_scrap": "2025-08-12 22:55:17 +0000",
       "heart_breaker": "2025-08-26 21:18:53 +0000",
@@ -610,6 +618,7 @@
       "sunflower": "2025-07-26 21:20:30 +0000",
       "end_stone_brick_wall": "2025-08-19 23:28:08 +0000",
       "cherry_log": "2025-08-17 01:14:07 +0000",
+      "oxidized_copper_grate": "2025-08-26 21:54:38 +0000",
       "polished_blackstone_bricks": "2025-08-17 18:39:25 +0000",
       "spruce_leaves": "2025-08-24 18:50:49 +0000",
       "deepslate_gold_ore": "2025-08-24 01:06:54 +0000",
@@ -680,6 +689,7 @@
       "polished_blackstone_stairs": "2025-08-17 18:12:15 +0000",
       "prismarine_bricks": "2025-08-26 21:35:06 +0000",
       "polished_tuff_slab": "2025-08-24 23:09:28 +0000",
+      "light_blue_carpet": "2025-08-26 22:00:12 +0000",
       "warped_nylium": "2025-08-12 22:43:30 +0000",
       "diorite": "2025-08-04 18:48:45 +0000",
       "orange_tulip": "2025-08-11 21:26:27 +0000",
@@ -980,6 +990,7 @@
       "mob_hunter": "2025-08-17 18:35:28 +0000",
       "who_needs_cars": "2025-08-22 00:07:51 +0000",
       "sneaky_snitch": "2025-07-27 01:18:41 +0000",
+      "yum_yum_yummo": "2025-08-26 21:51:43 +0000",
       "black_belt_ninja": "2025-08-15 00:36:34 +0000",
       "take_to_the_skies": "2025-08-21 23:25:14 +0000",
       "root": "2025-07-26 22:46:37 +0000",
@@ -2149,6 +2160,7 @@
       "creeper_killer": "2025-08-24 22:16:03 +0000",
       "monster_hunter": "2025-07-27 00:20:38 +0000",
       "ew_ew_ew": "2025-07-27 00:20:48 +0000",
+      "trick_or_treat": "2025-08-26 21:58:58 +0000",
       "poisonous_ew": "2025-08-04 18:32:41 +0000",
       "boned": "2025-08-04 17:52:57 +0000",
       "there_has_to_be_another_way": "2025-08-11 22:19:34 +0000",
@@ -2758,7 +2770,9 @@
   },
   "blazeandcave:biomes/high_feet": {
     "criteria": {
+      "windswept_hills": "2025-08-26 21:57:25 +0000",
       "stony_peaks": "2025-08-26 21:21:56 +0000",
+      "windswept_forest": "2025-08-26 22:01:45 +0000",
       "snowy_slopes": "2025-08-23 23:38:44 +0000",
       "meadow": "2025-07-27 00:35:49 +0000"
     },
@@ -3274,6 +3288,7 @@
       "white_carpet": "2025-07-27 01:18:41 +0000",
       "blue_carpet": "2025-08-18 22:51:22 +0000",
       "yellow_carpet": "2025-08-18 22:51:18 +0000",
+      "light_blue_carpet": "2025-08-26 22:00:12 +0000",
       "red_carpet": "2025-08-18 22:51:18 +0000"
     },
     "done": false
@@ -7392,7 +7407,8 @@
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
       "pillager_outpost": "2025-08-18 23:03:43 +0000",
-      "illager_camp": "2025-08-26 21:28:13 +0000"
+      "illager_camp": "2025-08-26 21:28:13 +0000",
+      "witch_villa": "2025-08-26 21:57:55 +0000"
     },
     "done": false
   },
@@ -13855,76 +13871,94 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-08-26 21:51:01 +0000",
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "requirement": "2025-08-26 22:01:04 +0000",
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+      "log_spam_fixer": "2025-08-26 22:01:03 +0000"
     },
     "done": false
+  },
+  "vanilla_refresh:biome/swamp": {
+    "criteria": {
+      "requirement": "2025-08-26 21:57:54 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/windswept_forest": {
+    "criteria": {
+      "requirement": "2025-08-26 22:01:45 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_witch_villa": {
+    "criteria": {
+      "nova_structures:witch_villa": "2025-08-26 21:57:55 +0000"
+    },
+    "done": true
   },
   "blazeandcave:adventure/the_deep_end": {
     "criteria": {
@@ -13932,9 +13966,27 @@
     },
     "done": true
   },
+  "blazeandcave:statistics/yum_yum_yummo": {
+    "criteria": {
+      "trigger": "2025-08-26 21:51:42 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/trick_or_treat": {
+    "criteria": {
+      "trick_or_treat": "2025-08-26 21:58:57 +0000"
+    },
+    "done": true
+  },
   "blazeandcave:animal/milk_does_your_body_good": {
     "criteria": {
       "milk_bucket": "2025-08-26 21:48:48 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/windswept_hills": {
+    "criteria": {
+      "requirement": "2025-08-26 21:57:25 +0000"
     },
     "done": true
   },
