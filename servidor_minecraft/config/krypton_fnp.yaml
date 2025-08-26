@@ -1,0 +1,17 @@
+# Fix Traffic Statistics
+fix-issues128-enabled: false
+
+# Run bandwidth statistics on sync thread, which is closer to Vanilla behavior.
+fix-issues128-sync: true
+
+# Replace player login validation thread with virtual thread
+mixin-loginVT: true
+
+# Replace text filter thread with virtual thread
+mixin-textFilterVT: true
+
+# Replace download thread with virtual thread
+mixin-utilVT: true
+
+# Optimized VarLong implementation
+mixin-bestVarLong: true

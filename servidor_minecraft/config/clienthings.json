@@ -1,0 +1,142 @@
+{
+  "enabled": true,
+  "optout": true,
+  "debug": false,
+  "experimental": false,
+  "consumables": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    },
+    "maxDistance": 2.0,
+    "maxTime": 6400
+  },
+  "cooldowns": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    }
+  },
+  "crystals": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    },
+    "maxTime": 800,
+    "autoDestroy": {
+      "enabled": true,
+      "servers": {
+        "CUSTOM": false,
+        "MODDED": true,
+        "PLUGIN": true,
+        "VANILLA": true
+      },
+      "bypassRequiredAiming": {
+        "enabled": true,
+        "servers": {
+          "CUSTOM": false,
+          "MODDED": true,
+          "PLUGIN": false,
+          "VANILLA": true
+        }
+      }
+    }
+  },
+  "elytras": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": false,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    }
+  },
+  "firework": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    },
+    "maxDistance": 3.0,
+    "maxTime": 3200
+  },
+  "minecart": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    },
+    "maxTime": 1200
+  },
+  "pose": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    }
+  },
+  "swap": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    }
+  },
+  "weapons": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": true,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    },
+    "maxDistance": 3.0,
+    "maxTime": 4800,
+    "crossbow": {
+      "enabled": true,
+      "servers": {
+        "CUSTOM": true,
+        "MODDED": true,
+        "PLUGIN": true,
+        "VANILLA": true
+      }
+    },
+    "trident": {
+      "enabled": true,
+      "servers": {
+        "CUSTOM": true,
+        "MODDED": true,
+        "PLUGIN": true,
+        "VANILLA": true
+      }
+    }
+  },
+  "windcharge": {
+    "enabled": true,
+    "servers": {
+      "CUSTOM": false,
+      "MODDED": true,
+      "PLUGIN": true,
+      "VANILLA": true
+    },
+    "maxDistance": 3.0,
+    "maxTime": 3200
+  }
+}
