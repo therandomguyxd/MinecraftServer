@@ -465,3 +465,6 @@
 [22:11:40] [Netty Epoll Server Play IO #1/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
 [22:11:40] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
 [22:11:40] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
+[22:29:25] [Server thread/INFO]: RolandKisserBoi lost connection: Disconnected
+[22:29:25] [Server thread/INFO]: RolandKisserBoi left the game
+[22:29:25] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
