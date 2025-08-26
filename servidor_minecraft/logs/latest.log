@@ -820,3 +820,12 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_270.method_12
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
 [17:56:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-195, y=1, z=192} class_2338{x=-156, y=59, z=193}
+[18:31:00] [Server thread/INFO]: RolandKisserBoi lost connection: Timed out
+[18:31:00] [Server thread/INFO]: RolandKisserBoi left the game
+[18:31:00] [Server thread/INFO]: [voicechat] Disconnecting client RolandKisserBoi
+[18:33:37] [Server thread/INFO]: RolandKisserBoi[/127.133.130.223:50889] logged in with entity id 23359 at (-423.3780185251472, 124.0, 541.5751357562132)
+[18:33:37] [Server thread/INFO]: RolandKisserBoi joined the game
+[18:33:37] [Netty Epoll Server Play IO #2/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[18:33:38] [Netty Epoll Server Play IO #2/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[18:33:43] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
+[18:33:43] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
