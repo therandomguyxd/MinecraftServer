@@ -682,3 +682,76 @@
 [17:22:24] [Server thread/INFO]: [Chunky] A task was already started for this world. To continue running it, type '/chunky continue'. To start a new task, type '/chunky confirm'.
 [17:22:27] [Server thread/INFO]: [Chunky] Task started in minecraft:overworld for the square region centered at 0, 0 with radius 1000.
 [17:22:27] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 164 chunks (1.02%), ETA: 0:00:09, Rate: 1640.0 cps, Current: 7, 11
+[17:22:28] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1232 chunks (7.64%), ETA: 0:00:13, Rate: 1119.0 cps, Current: 39, 12
+[17:22:29] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2156 chunks (13.37%), ETA: 0:00:13, Rate: 1013.6 cps, Current: 46, -25
+[17:22:30] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4309 chunks (26.72%), ETA: 0:00:08, Rate: 1374.0 cps, Current: -25, -24
+[17:22:31] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6941 chunks (43.03%), ETA: 0:00:05, Rate: 1677.8 cps, Current: -11, 44
+[17:22:32] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7445 chunks (46.16%), ETA: 0:00:05, Rate: 1449.0 cps, Current: 6, 48
+[17:22:33] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7708 chunks (47.79%), ETA: 0:00:06, Rate: 1248.7 cps, Current: 22, 51
+[17:22:34] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8124 chunks (50.37%), ETA: 0:00:07, Rate: 1131.2 cps, Current: 23, 33
+[17:22:35] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8272 chunks (51.29%), ETA: 0:00:07, Rate: 1009.8 cps, Current: 43, 32
+[17:22:36] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8581 chunks (53.20%), ETA: 0:00:08, Rate: 931.8 cps, Current: 42, 56
+[17:22:37] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8981 chunks (55.68%), ETA: 0:00:08, Rate: 879.6 cps, Current: 63, 42
+[17:22:38] [c2me-worker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10212 chunks (63.31%), ETA: 0:00:06, Rate: 909.1 cps, Current: 0, -60
+[17:22:39] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11213 chunks (69.52%), ETA: 0:00:05, Rate: 915.3 cps, Current: -32, -51
+[17:22:40] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12413 chunks (76.96%), ETA: 0:00:03, Rate: 935.0 cps, Current: -56, -60
+[17:22:41] [c2me-worker-2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13579 chunks (84.19%), ETA: 0:00:02, Rate: 950.8 cps, Current: -50, -23
+[17:22:42] [c2me-worker-2/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 16129 chunks (100.00%), Total time: 0:00:14
+[17:23:55] [spark-worker-pool-1-thread-2/INFO]: [⚡] Generating server health report...
+[17:23:55] [spark-worker-pool-1-thread-2/INFO]: 
+> TPS from last 5s, 10s, 1m, 5m, 15m:
+    *20.0, *20.0, *20.0, 19.53, 19.83
+
+> Tick durations (min/med/95%ile/max ms) from last 10s, 1m:
+    0.0/0.0/0.1/0.2; 0.0/0.1/0.2/42.5
+
+> CPU usage from last 10s, 1m, 15m:
+    4%, 4%, 12%  (system)
+    0%, 0%, 7%  (process)
+
+> Memory usage:
+    4.4 GB / 12.0 GB   (36%)
+    [┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻]
+
+> Network usage: (system, last 15m)
+    16.6 KB/s / 42 pps (lo rx)
+    16.6 KB/s / 42 pps (lo tx)
+    1.3 MB/s / 1,010 pps (eth0 rx)
+    31.9 KB/s / 59 pps (eth0 tx)
+
+> Disk usage:
+    15.2 GB / 31.3 GB   (48%)
+    [┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻]
+
+[17:23:59] [spark-worker-pool-1-thread-3/INFO]: [⚡] Generating server health report...
+[17:23:59] [spark-worker-pool-1-thread-3/INFO]: 
+> TPS from last 5s, 10s, 1m, 5m, 15m:
+    20.0, *20.0, *20.0, 19.53, 19.83
+
+> Tick durations (min/med/95%ile/max ms) from last 10s, 1m:
+    0.0/0.0/0.1/0.2; 0.0/0.1/0.1/42.5
+
+> CPU usage from last 10s, 1m, 15m:
+    5%, 4%, 12%  (system)
+    0%, 0%, 7%  (process)
+
+> Memory usage:
+    4.4 GB / 12.0 GB   (36%)
+    [┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻]
+
+> Network usage: (system, last 15m)
+    16.6 KB/s / 42 pps (lo rx)
+    16.6 KB/s / 42 pps (lo tx)
+    1.3 MB/s / 1,010 pps (eth0 rx)
+    31.9 KB/s / 59 pps (eth0 tx)
+
+> Disk usage:
+    15.2 GB / 31.3 GB   (48%)
+    [┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻╻]
+
+[17:24:07] [Server thread/INFO]: RolandKisserBoi[/127.133.130.223:59955] logged in with entity id 716 at (-373.61881227019256, 72.0, 488.26341681365113)
+[17:24:07] [Server thread/INFO]: RolandKisserBoi joined the game
+[17:24:07] [Netty Epoll Server Play IO #1/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[17:24:07] [Netty Epoll Server Play IO #1/INFO]: [STDOUT]: RolandKisserBoi is using ClienThings
+[17:24:08] [Server thread/INFO]: [voicechat] Received secret request of RolandKisserBoi (18)
+[17:24:08] [Server thread/INFO]: [voicechat] Sent secret to RolandKisserBoi
