@@ -350,6 +350,7 @@
       "blast_shield": "2025-08-04 18:09:29 +0000",
       "getting_an_upgrade": "2025-07-27 00:22:10 +0000",
       "the_descent": "2025-08-16 21:27:20 +0000",
+      "supersonic": "2025-08-26 17:56:45 +0000",
       "we_need_to_go_deeper": "2025-08-12 22:39:00 +0000",
       "time_to_strike": "2025-07-27 00:38:00 +0000",
       "dead_dont_die": "2025-07-27 00:20:38 +0000",
@@ -929,6 +930,7 @@
       "spring_in_your_step": "2025-07-27 01:10:48 +0000",
       "stonks": "2025-08-22 23:14:05 +0000",
       "big_spender": "2025-08-16 19:07:40 +0000",
+      "supersonic": "2025-08-26 17:56:45 +0000",
       "bloodthirsty": "2025-08-25 00:51:57 +0000"
     },
     "done": false
@@ -13508,75 +13510,82 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "requirement": "2025-08-26 17:58:22 +0000",
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-08-26 17:48:14 +0000"
+      "log_spam_fixer": "2025-08-26 17:58:14 +0000"
     },
     "done": false
+  },
+  "blazeandcave:statistics/supersonic": {
+    "criteria": {
+      "trigger": "2025-08-26 17:56:44 +0000"
+    },
+    "done": true
   },
   "blazeandcave:farming/an_amazing_story": {
     "criteria": {
