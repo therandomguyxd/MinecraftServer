@@ -211,6 +211,8 @@
       "laser_sharks": "2025-08-26 21:31:59 +0000",
       "roadhog": "2025-08-15 00:27:26 +0000",
       "the_point_of_no_return": "2025-08-22 00:32:42 +0000",
+      "milk_does_your_body_good": "2025-08-26 21:48:49 +0000",
+      "the_deep_end": "2025-08-26 21:51:07 +0000",
       "tele_morph": "2025-08-23 20:39:24 +0000",
       "write_your_thoughts": "2025-08-17 19:41:39 +0000",
       "soul_runnings": "2025-08-24 01:20:37 +0000",
@@ -657,6 +659,7 @@
       "magenta_glazed_terracotta": "2025-08-22 23:14:05 +0000",
       "coal_block": "2025-07-27 00:37:52 +0000",
       "stripped_cherry_log": "2025-08-17 01:17:17 +0000",
+      "wet_sponge": "2025-08-26 21:51:24 +0000",
       "crafting_table": "2025-07-27 00:20:17 +0000",
       "diamond_block": "2025-08-23 22:47:20 +0000",
       "warped_stem": "2025-08-15 00:08:28 +0000",
@@ -1108,6 +1111,7 @@
       "iron_hoe": "2025-08-26 21:15:04 +0000",
       "book": "2025-08-11 21:33:13 +0000",
       "leather_chestplate": "2025-08-04 17:21:08 +0000",
+      "milk_bucket": "2025-08-26 21:48:45 +0000",
       "totem_of_undying": "2025-08-17 20:42:12 +0000",
       "bow": "2025-08-04 18:31:32 +0000",
       "axolotl_bucket": "2025-08-22 20:49:10 +0000",
@@ -1343,6 +1347,7 @@
       "ender_eye": "2025-08-18 21:16:49 +0000",
       "leather_chestplate": "2025-08-04 17:21:08 +0000",
       "spire_armor_trim": "2025-08-19 23:29:29 +0000",
+      "milk_bucket": "2025-08-26 21:48:45 +0000",
       "totem_of_undying": "2025-08-17 20:42:12 +0000",
       "axolotl_bucket": "2025-08-22 20:49:10 +0000",
       "red_dye": "2025-08-19 21:50:23 +0000",
@@ -1505,6 +1510,7 @@
       "sound_the_alarm": "2025-08-17 20:32:12 +0000",
       "laser_sharks": "2025-08-26 21:31:59 +0000",
       "tomb_raider": "2025-08-26 21:19:47 +0000",
+      "the_deep_end": "2025-08-26 21:51:07 +0000",
       "root": "2025-07-27 00:13:31 +0000",
       "ive_got_a_bad_feeling_about_this": "2025-08-16 18:37:13 +0000",
       "respecting_the_remnants": "2025-08-11 22:20:05 +0000",
@@ -1578,6 +1584,7 @@
       "bacon": "2025-07-27 00:22:23 +0000",
       "pork_chop": "2025-07-27 00:22:58 +0000",
       "tickle_time": "2025-07-27 00:14:18 +0000",
+      "milk_does_your_body_good": "2025-08-26 21:48:49 +0000",
       "root": "2025-07-27 00:17:52 +0000",
       "sheariously": "2025-08-17 19:44:33 +0000",
       "repopulation": "2025-08-26 21:00:30 +0000",
@@ -2053,6 +2060,7 @@
       "minecraft:blaze": "2025-08-14 22:50:29 +0000",
       "minecraft:pillager": "2025-08-16 18:37:13 +0000",
       "minecraft:skeleton": "2025-08-04 18:08:03 +0000",
+      "minecraft:elder_guardian": "2025-08-26 21:51:07 +0000",
       "minecraft:ravager": "2025-08-17 20:34:16 +0000",
       "minecraft:bogged": "2025-08-26 21:19:50 +0000",
       "minecraft:ghast": "2025-08-14 22:32:23 +0000",
@@ -4310,17 +4318,18 @@
   },
   "blazeandcave:monsters/dungeon_crawler": {
     "criteria": {
-      "pillager": "2025-08-16 18:37:54 +0000",
-      "vindicator": "2025-08-17 21:03:41 +0000",
       "shulker": "2025-08-19 23:11:16 +0000",
-      "blaze": "2025-08-14 22:50:29 +0000",
-      "evoker": "2025-08-17 21:02:08 +0000",
       "wither_skeleton": "2025-08-16 21:22:05 +0000",
       "vex": "2025-08-17 20:57:41 +0000",
-      "cave_spider": "2025-08-04 18:32:40 +0000",
-      "silverfish": "2025-08-18 21:39:25 +0000",
       "piglin_brute": "2025-08-12 22:54:14 +0000",
       "breeze": "2025-08-24 22:58:53 +0000",
+      "elder_guardian": "2025-08-26 21:51:07 +0000",
+      "pillager": "2025-08-16 18:37:54 +0000",
+      "vindicator": "2025-08-17 21:03:41 +0000",
+      "blaze": "2025-08-14 22:50:29 +0000",
+      "evoker": "2025-08-17 21:02:08 +0000",
+      "cave_spider": "2025-08-04 18:32:40 +0000",
+      "silverfish": "2025-08-18 21:39:25 +0000",
       "guardian": "2025-08-26 21:31:58 +0000"
     },
     "done": false
@@ -13699,112 +13708,9 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2025-08-26 21:36:17 +0000",
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-08-26 21:36:02 +0000"
-    },
-    "done": false
-  },
-  "blazeandcave:redstone/tripping_over": {
-    "criteria": {
-      "tripwire_hook": "2025-08-26 21:20:09 +0000"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/jungle": {
-    "criteria": {
-      "requirement": "2025-08-26 21:12:26 +0000"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/stony_peaks": {
-    "criteria": {
-      "requirement": "2025-08-26 21:21:56 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:adventure/now_youre_thinking_with_portals": {
-    "criteria": {
-      "ruined_portal": "2025-08-26 21:11:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "cow": "2025-08-26 21:00:29 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:biomes/bamboom": {
-    "criteria": {
-      "bamboo": "2025-08-26 21:12:46 +0000"
     },
     "done": true
   },
@@ -13814,17 +13720,23 @@
     },
     "done": false
   },
-  "blazeandcave:biomes/heart_breaker": {
+  "blazeandcave:adventure/now_youre_thinking_with_portals": {
     "criteria": {
-      "creaking": "2025-08-26 21:18:52 +0000"
+      "ruined_portal": "2025-08-26 21:11:22 +0000"
     },
     "done": true
   },
-  "blazeandcave:building/pale_gardener": {
+  "vanilla_refresh:biome/jungle": {
     "criteria": {
-      "pale_oak_log": "2025-08-26 21:18:22 +0000"
+      "requirement": "2025-08-26 21:12:26 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "blazeandcave:biomes/bamboom": {
+    "criteria": {
+      "bamboo": "2025-08-26 21:12:46 +0000"
+    },
+    "done": true
   },
   "blazeandcave:building/bamboozled": {
     "criteria": {
@@ -13833,9 +13745,9 @@
     },
     "done": false
   },
-  "vanilla_refresh:biome/badlands": {
+  "blazeandcave:biomes/ahoy": {
     "criteria": {
-      "requirement": "2025-08-26 21:22:05 +0000"
+      "shipwreck": "2025-08-26 21:13:42 +0000"
     },
     "done": true
   },
@@ -13845,9 +13757,51 @@
     },
     "done": true
   },
+  "blazeandcave:building/pale_gardener": {
+    "criteria": {
+      "pale_oak_log": "2025-08-26 21:18:22 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:biomes/heart_breaker": {
+    "criteria": {
+      "creaking": "2025-08-26 21:18:52 +0000"
+    },
+    "done": true
+  },
   "blazeandcave:adventure/tomb_raider": {
     "criteria": {
       "jungle_pyramid": "2025-08-26 21:19:46 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/bogged_down": {
+    "criteria": {
+      "bogged": "2025-08-26 21:19:50 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/tripping_over": {
+    "criteria": {
+      "tripwire_hook": "2025-08-26 21:20:09 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/troll_chest": {
+    "criteria": {
+      "trapped_chest": "2025-08-26 21:20:25 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/stony_peaks": {
+    "criteria": {
+      "requirement": "2025-08-26 21:21:56 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/badlands": {
+    "criteria": {
+      "requirement": "2025-08-26 21:22:05 +0000"
     },
     "done": true
   },
@@ -13857,27 +13811,9 @@
     },
     "done": true
   },
-  "moldomre:recipes/food/smoked_cod": {
+  "blazeandcave:mining/gi_geode": {
     "criteria": {
-      "has_cooked_cod": "2025-08-26 21:32:30 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:adventure/monumental": {
-    "criteria": {
-      "monument": "2025-08-26 21:32:06 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:animal/caprymphony": {
-    "criteria": {
-      "ponder": "2025-08-26 21:28:49 +0000"
-    },
-    "done": false
-  },
-  "blazeandcave:monsters/bogged_down": {
-    "criteria": {
-      "bogged": "2025-08-26 21:19:50 +0000"
+      "amethyst_shard": "2025-08-26 21:23:52 +0000"
     },
     "done": true
   },
@@ -13893,17 +13829,11 @@
     },
     "done": true
   },
-  "blazeandcave:biomes/ahoy": {
+  "blazeandcave:animal/caprymphony": {
     "criteria": {
-      "shipwreck": "2025-08-26 21:13:42 +0000"
+      "ponder": "2025-08-26 21:28:49 +0000"
     },
-    "done": true
-  },
-  "blazeandcave:mining/gi_geode": {
-    "criteria": {
-      "amethyst_shard": "2025-08-26 21:23:52 +0000"
-    },
-    "done": true
+    "done": false
   },
   "blazeandcave:adventure/laser_sharks": {
     "criteria": {
@@ -13911,9 +13841,100 @@
     },
     "done": true
   },
-  "blazeandcave:redstone/troll_chest": {
+  "blazeandcave:adventure/monumental": {
     "criteria": {
-      "trapped_chest": "2025-08-26 21:20:25 +0000"
+      "monument": "2025-08-26 21:32:06 +0000"
+    },
+    "done": true
+  },
+  "moldomre:recipes/food/smoked_cod": {
+    "criteria": {
+      "has_cooked_cod": "2025-08-26 21:32:30 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-08-26 21:51:01 +0000",
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-08-26 21:50:45 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:adventure/the_deep_end": {
+    "criteria": {
+      "elder_guardian": "2025-08-26 21:51:07 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/milk_does_your_body_good": {
+    "criteria": {
+      "milk_bucket": "2025-08-26 21:48:48 +0000"
     },
     "done": true
   },
